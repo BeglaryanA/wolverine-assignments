@@ -2,7 +2,7 @@
 #include <map>
 #include <string>
 
-enum class Colors {Red = 15, Green, Blue};
+enum class Colors {Red, Green, Blue};
 
 Colors toEnum(const std::string&);
 std::string toString(const Colors&);
